@@ -106,7 +106,6 @@ var handleRenderSaveBtn = function() {
 // Render's the list of note titles
 var renderNoteList = function(notes) {
   $noteList.empty();
-
   var noteListItems = [];
 
   for (var i = 0; i < notes.length; i++) {
@@ -128,6 +127,7 @@ var renderNoteList = function(notes) {
 // Gets notes from the db and renders them to the sidebar
 var getAndRenderNotes = function() {
   return getNotes().then(function(data) {
+    console.log(data, "Hello");
     renderNoteList(data);
   });
 };
