@@ -1,4 +1,4 @@
-var path = require("path");
+const path = require("path");
 
 // exporting html paths
 module.exports = function(app) {
