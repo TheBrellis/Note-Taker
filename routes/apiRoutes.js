@@ -12,7 +12,7 @@ module.exports = function(app) {
         res.json(true);
     })
 
-    app.delete("/api/clear", function(req,res) {
+    app.delete("/api/notes", function(req,res) {
         note_data.length = 0;
 
         res.json({ ok:true});

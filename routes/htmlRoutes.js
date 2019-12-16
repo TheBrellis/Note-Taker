@@ -1,5 +1,4 @@
 const path = require("path");
-const note_data= require("../db/note_data");
 // exporting html paths
 module.exports = function(app) {
     
