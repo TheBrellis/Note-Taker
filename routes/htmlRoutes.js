@@ -1,4 +1,5 @@
 const path = require("path");
+//const router = require("express").Router();
 // exporting html paths
 module.exports = function(app) {
     
